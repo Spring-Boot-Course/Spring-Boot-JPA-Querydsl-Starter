@@ -85,3 +85,8 @@ public class QuerydslConfiguration {
 ### Querydsl 컴파일 하기
 ![1](https://t1.daumcdn.net/cfile/tistory/9925CC405C2A15D70C)
 
+### QuerydslSupport?
+페이징 기능을 사용하지 않는다면 굳이 extends 할 필요 없다.
+
+### 참조
+[https://jojoldu.tistory.com/372?category=637935](https://jojoldu.tistory.com/372?category=637935)
