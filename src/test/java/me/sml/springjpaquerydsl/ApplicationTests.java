@@ -19,8 +19,8 @@ public class ApplicationTests {
     @Autowired
     private AcademyRepository academyRepository;
 
-    @Autowired
-    private AcademyRepositorySupport academyRepositorySupport;
+//    @Autowired
+//    private AcademyRepositorySupport academyRepositorySupport;
 
     @After
     public void tearDown() throws Exception{
@@ -38,7 +38,7 @@ public class ApplicationTests {
                                 .build());
 
         //when
-        List<Academy> result = academyRepositorySupport.findByName(name);
+        List<Academy> result = academyRepository.findByName(name);
 
         //then
         assertThat(result.size(), is(1));
